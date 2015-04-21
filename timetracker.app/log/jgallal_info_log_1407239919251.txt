@@ -1,0 +1,15 @@
+Request on site get_current_user
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_current_user
+Loading user tracked actions
+WorkstationLock window sucessfully created! Window hwnd: native@0xa01d6
+Request on site set_user_tracker_version
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+Request on site get_user_settings
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_settings
+Request on site get_user_tracked_actions
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_tracked_actions
+[models.TrackedAction@1cffeb4, models.TrackedAction@5b0668, models.TrackedAction@1d5a0]
+Request on site set_user_default_level_1
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_default_level_1
+WorkstationLock exit!
+Application exit!

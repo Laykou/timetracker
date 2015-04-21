@@ -1,0 +1,24 @@
+20.4.2015 22:12:04 com.jci.timetracker.run.GuiRunner main
+INFO: Application started
+20.4.2015 22:12:04 org.xnio.Xnio <clinit>
+INFO: XNIO Version 3.0.3.GA
+20.4.2015 22:12:04 org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.0.3.GA
+20.4.2015 22:12:04 org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 3.2.3.GA
+20.4.2015 22:12:05 com.jci.timetracker.workstationLock.WorkstationLockListening <init>
+INFO: WorkstationLock window sucessfully created! Window hwnd: native@0x3b07cc
+20.4.2015 22:12:05 org.jboss.ejb.client.remoting.VersionReceiver handleMessage
+INFO: Received server version 1 and marshalling strategies [river]
+20.4.2015 22:12:05 org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver associate
+INFO: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@1ac2cf83, receiver=Remoting connection EJB receiver [connection=Remoting connection <72813bc1>,channel=jboss.ejb,nodename=shrek]} on channel Channel ID e9ea4e46 (outbound) of Remoting connection 0bf47ae8 to localhost/127.0.0.1:4447
+20.4.2015 22:12:05 org.jboss.ejb.client.remoting.ChannelAssociation$ResponseReceiver handleMessage
+WARN: Unsupported message received with header 0xffffffff
+20.4.2015 22:12:05 org.jboss.ejb.client.EJBClient <clinit>
+INFO: JBoss EJB Client version 1.0.5.Final
+20.4.2015 22:12:05 com.jci.timetracker.requester.ejb.RequestsWorker run
+SEVERE: Error while executing requestjava.lang.reflect.UndeclaredThrowableException
+20.4.2015 22:12:05 com.jci.timetracker.requester.ejb.RequestsWorker run
+SEVERE: Error while executing requestjava.lang.reflect.UndeclaredThrowableException
+20.4.2015 22:12:05 com.jci.timetracker.requester.ejb.RequestsWorker run
+SEVERE: Error while executing requestjava.lang.reflect.UndeclaredThrowableException

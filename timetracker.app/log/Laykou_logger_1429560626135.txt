@@ -1,0 +1,24 @@
+20.4.2015 22:10:26 com.jci.timetracker.run.GuiRunner main
+INFO: Application started
+20.4.2015 22:10:26 com.jci.timetracker.requester.ejb.RequestsWorker run
+INFO: Cannot instantiate class: org.jboss.naming.remote.client.InitialContextFactory
+javax.naming.NoInitialContextException: Cannot instantiate class: org.jboss.naming.remote.client.InitialContextFactory [Root exception is java.lang.ClassNotFoundException: org.jboss.naming.remote.client.InitialContextFactory]
+	at javax.naming.spi.NamingManager.getInitialContext(Unknown Source)
+	at javax.naming.InitialContext.getDefaultInitCtx(Unknown Source)
+	at javax.naming.InitialContext.init(Unknown Source)
+	at javax.naming.InitialContext.<init>(Unknown Source)
+	at com.jci.timetracker.requester.ejb.RequestMessageWrapper.execute(RequestMessageWrapper.java:53)
+	at com.jci.timetracker.requester.ejb.RequestsWorker.run(RequestsWorker.java:216)
+Caused by: java.lang.ClassNotFoundException: org.jboss.naming.remote.client.InitialContextFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.sun.naming.internal.VersionHelper12.loadClass(Unknown Source)
+	... 6 more
+20.4.2015 22:10:26 com.jci.timetracker.workstationLock.WorkstationLockListening <init>
+INFO: WorkstationLock window sucessfully created! Window hwnd: native@0x3307cc

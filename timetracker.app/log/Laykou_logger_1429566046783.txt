@@ -1,0 +1,20 @@
+20.4.2015 23:40:46 com.jci.timetracker.run.GuiRunner main
+INFO: Application started
+20.4.2015 23:40:47 org.xnio.Xnio <clinit>
+INFO: XNIO Version 3.0.3.GA
+20.4.2015 23:40:47 org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.0.3.GA
+20.4.2015 23:40:47 org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 3.2.3.GA
+20.4.2015 23:40:47 com.jci.timetracker.workstationLock.WorkstationLockListening <init>
+INFO: WorkstationLock window sucessfully created! Window hwnd: native@0x630786
+20.4.2015 23:40:47 org.jboss.ejb.client.remoting.VersionReceiver handleMessage
+INFO: Received server version 1 and marshalling strategies [river]
+20.4.2015 23:40:47 org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver associate
+INFO: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@4548e798, receiver=Remoting connection EJB receiver [connection=Remoting connection <3c63e8c>,channel=jboss.ejb,nodename=shrek]} on channel Channel ID fd40fb27 (outbound) of Remoting connection 18f2225f to localhost/127.0.0.1:4447
+20.4.2015 23:40:47 org.jboss.ejb.client.remoting.ChannelAssociation$ResponseReceiver handleMessage
+WARN: Unsupported message received with header 0xffffffff
+20.4.2015 23:40:47 org.jboss.ejb.client.EJBClient <clinit>
+INFO: JBoss EJB Client version 1.0.5.Final
+20.4.2015 23:40:49 com.jci.timetracker.workstationLock.WorkstationLockListening$1 call
+INFO: WorkstationLock exit!

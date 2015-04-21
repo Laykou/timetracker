@@ -1,0 +1,187 @@
+Request on site get_current_user
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_current_user
+Loading user tracked actions
+WorkstationLock window sucessfully created! Window hwnd: native@0x41eb6
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "User authenticated. Getting user info",
+    "user": {
+        "default_level_1_id": 1,
+        "default_level_2_id": null,
+        "default_level_3_id": null
+    }
+}
+
+SINGLE RESPONSE END
+==================
+Request on site set_user_tracker_version
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracker version saved."
+}
+
+SINGLE RESPONSE END
+==================
+Request on site get_user_settings
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_settings
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Getting user department settings, all levels and all activities list",
+    "start": null,
+    "end": null,
+    "today": 1407327347,
+    "department_setting": {
+        "id": 11,
+        "subdepartment": "DashboardT1",
+        "allow_activity_editing": "1",
+        "levels_1": [
+            {
+                "id": 1
+            },
+            {
+                "id": 3
+            }
+        ],
+        "levels_2": [
+            {
+                "id": 2
+            }
+        ],
+        "levels_3": [
+
+        ],
+        "main_activities": [
+            {
+                "id": 39,
+                "activity_id": 4,
+                "sub_activities": [
+                    {
+                        "id": 41,
+                        "activity_id": 4
+                    },
+                    {
+                        "id": 42,
+                        "activity_id": 5
+                    }
+                ]
+            },
+            {
+                "id": 40,
+                "activity_id": 5,
+                "sub_activities": [
+
+                ]
+            }
+        ]
+    },
+    "levels": [
+        {
+            "id": 1,
+            "label": "AN"
+        },
+        {
+            "id": 2,
+            "label": "TN"
+        },
+        {
+            "id": 3,
+            "label": "FE"
+        },
+        {
+            "id": 4,
+            "label": "EC"
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "label": "Communication"
+        },
+        {
+            "id": 2,
+            "label": "No CEG"
+        },
+        {
+            "id": 3,
+            "label": "Something"
+        },
+        {
+            "id": 4,
+            "label": "Alarm"
+        },
+        {
+            "id": 5,
+            "label": "Police"
+        },
+        {
+            "id": 6,
+            "label": "Paper"
+        },
+        {
+            "id": 7,
+            "label": "Train"
+        }
+    ]
+}
+
+SINGLE RESPONSE END
+==================
+Request on site get_user_tracked_actions
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_tracked_actions
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Getting user tracked actions",
+    "tracked_actions": [
+        {
+            "id": 1053,
+            "comment": "Ach",
+            "continue_for_inactive": "0",
+            "count": 1,
+            "finish": "2014-08-05T13:32:08+0200",
+            "start": "2014-08-05T13:31:52+0200",
+            "main_activity": {
+                "id": 4
+            },
+            "sub_activity": {
+                "id": 5
+            },
+            "level1": {
+                "id": 1
+            },
+            "level2": {
+                "id": 1
+            }
+        }
+    ]
+}
+
+SINGLE RESPONSE END
+==================
+[com.jci.timetracker.models.TrackedAction@1d5a0]
+Request on site set_user_default_level_1
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_default_level_1
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved."
+}
+
+SINGLE RESPONSE END
+==================
+WorkstationLock exit!
+Application exit!

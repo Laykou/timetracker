@@ -1,0 +1,1105 @@
+Request on site get_current_user
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_current_user
+Loading user tracked actions
+WorkstationLock window sucessfully created! Window hwnd: native@0x131840
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "User authenticated. Getting user info",
+    "user": {
+        "default_level_1_id": 10,
+        "default_level_2_id": null,
+        "default_level_3_id": null
+    }
+}
+
+SINGLE RESPONSE END
+==================
+Request on site set_user_tracker_version
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracker version saved."
+}
+
+SINGLE RESPONSE END
+==================
+Request on site get_user_settings
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_settings
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Getting user department settings, all levels and all activities list",
+    "start": null,
+    "end": null,
+    "today": 1407313523,
+    "department_setting": {
+        "id": 6,
+        "subdepartment": "ICO_till16.7.",
+        "allow_activity_editing": "1",
+        "levels_1": [
+            {
+                "id": 7
+            },
+            {
+                "id": 8
+            },
+            {
+                "id": 9
+            },
+            {
+                "id": 10
+            },
+            {
+                "id": 1
+            }
+        ],
+        "levels_2": [],
+        "levels_3": [],
+        "main_activities": [
+            {
+                "id": 121,
+                "activity_id": 38,
+                "sub_activities": [
+                    {
+                        "id": 123,
+                        "activity_id": 24
+                    },
+                    {
+                        "id": 125,
+                        "activity_id": 26
+                    },
+                    {
+                        "id": 126,
+                        "activity_id": 27
+                    },
+                    {
+                        "id": 128,
+                        "activity_id": 29
+                    },
+                    {
+                        "id": 129,
+                        "activity_id": 30
+                    },
+                    {
+                        "id": 130,
+                        "activity_id": 31
+                    },
+                    {
+                        "id": 131,
+                        "activity_id": 32
+                    },
+                    {
+                        "id": 140,
+                        "activity_id": 40
+                    },
+                    {
+                        "id": 141,
+                        "activity_id": 41
+                    },
+                    {
+                        "id": 142,
+                        "activity_id": 42
+                    },
+                    {
+                        "id": 143,
+                        "activity_id": 43
+                    },
+                    {
+                        "id": 144,
+                        "activity_id": 44
+                    },
+                    {
+                        "id": 145,
+                        "activity_id": 45
+                    },
+                    {
+                        "id": 146,
+                        "activity_id": 46
+                    },
+                    {
+                        "id": 147,
+                        "activity_id": 47
+                    },
+                    {
+                        "id": 148,
+                        "activity_id": 48
+                    },
+                    {
+                        "id": 158,
+                        "activity_id": 7
+                    },
+                    {
+                        "id": 209,
+                        "activity_id": 95
+                    }
+                ]
+            },
+            {
+                "id": 122,
+                "activity_id": 39,
+                "sub_activities": [
+                    {
+                        "id": 132,
+                        "activity_id": 33
+                    },
+                    {
+                        "id": 134,
+                        "activity_id": 34
+                    },
+                    {
+                        "id": 135,
+                        "activity_id": 30
+                    },
+                    {
+                        "id": 136,
+                        "activity_id": 29
+                    },
+                    {
+                        "id": 149,
+                        "activity_id": 49
+                    },
+                    {
+                        "id": 150,
+                        "activity_id": 3
+                    },
+                    {
+                        "id": 151,
+                        "activity_id": 27
+                    },
+                    {
+                        "id": 152,
+                        "activity_id": 50
+                    },
+                    {
+                        "id": 153,
+                        "activity_id": 51
+                    },
+                    {
+                        "id": 154,
+                        "activity_id": 52
+                    },
+                    {
+                        "id": 155,
+                        "activity_id": 53
+                    },
+                    {
+                        "id": 157,
+                        "activity_id": 55
+                    },
+                    {
+                        "id": 210,
+                        "activity_id": 96
+                    },
+                    {
+                        "id": 211,
+                        "activity_id": 97
+                    },
+                    {
+                        "id": 242,
+                        "activity_id": 7
+                    }
+                ]
+            }
+        ]
+    },
+    "levels": [
+        {
+            "id": 1,
+            "label": "AE"
+        },
+        {
+            "id": 2,
+            "label": "BE"
+        },
+        {
+            "id": 3,
+            "label": "PS"
+        },
+        {
+            "id": 4,
+            "label": "AEIE"
+        },
+        {
+            "id": 5,
+            "label": "AES"
+        },
+        {
+            "id": 6,
+            "label": "GWS"
+        },
+        {
+            "id": 7,
+            "label": "Oracle"
+        },
+        {
+            "id": 8,
+            "label": "iScala"
+        },
+        {
+            "id": 9,
+            "label": "SAP"
+        },
+        {
+            "id": 10,
+            "label": "Maximo"
+        },
+        {
+            "id": 11,
+            "label": "Citibank"
+        },
+        {
+            "id": 12,
+            "label": "US Bank"
+        },
+        {
+            "id": 13,
+            "label": "Airplus"
+        },
+        {
+            "id": 14,
+            "label": "Oracle 03"
+        },
+        {
+            "id": 15,
+            "label": "Oracle 05"
+        },
+        {
+            "id": 16,
+            "label": "Oracle US"
+        },
+        {
+            "id": 17,
+            "label": "Webtools"
+        },
+        {
+            "id": 18,
+            "label": "All"
+        },
+        {
+            "id": 19,
+            "label": "BE & GWS EMEA"
+        },
+        {
+            "id": 20,
+            "label": "BE NA"
+        },
+        {
+            "id": 21,
+            "label": "PS EMEA"
+        },
+        {
+            "id": 22,
+            "label": "PS NA"
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "label": "AP Voucher"
+        },
+        {
+            "id": 2,
+            "label": "AP Voucher"
+        },
+        {
+            "id": 3,
+            "label": "Printing"
+        },
+        {
+            "id": 4,
+            "label": "Posting"
+        },
+        {
+            "id": 5,
+            "label": "PTS posting"
+        },
+        {
+            "id": 6,
+            "label": "Communication"
+        },
+        {
+            "id": 7,
+            "label": "Other"
+        },
+        {
+            "id": 8,
+            "label": "Consignment"
+        },
+        {
+            "id": 9,
+            "label": "Retrobill"
+        },
+        {
+            "id": 10,
+            "label": "Clearing"
+        },
+        {
+            "id": 11,
+            "label": "IRIS Chargeback"
+        },
+        {
+            "id": 12,
+            "label": "Helpdesk"
+        },
+        {
+            "id": 13,
+            "label": "General support"
+        },
+        {
+            "id": 14,
+            "label": "Processing"
+        },
+        {
+            "id": 15,
+            "label": "Selfbill"
+        },
+        {
+            "id": 16,
+            "label": "DMR\/RTV"
+        },
+        {
+            "id": 17,
+            "label": "Meeting\/Training"
+        },
+        {
+            "id": 18,
+            "label": "Checks & Reports"
+        },
+        {
+            "id": 19,
+            "label": "Emailing"
+        },
+        {
+            "id": 20,
+            "label": "Corrections"
+        },
+        {
+            "id": 21,
+            "label": "Special processes"
+        },
+        {
+            "id": 22,
+            "label": "Vendor queries"
+        },
+        {
+            "id": 23,
+            "label": "Projects"
+        },
+        {
+            "id": 24,
+            "label": "Booking"
+        },
+        {
+            "id": 25,
+            "label": "Dropbox related"
+        },
+        {
+            "id": 26,
+            "label": "ACL activities"
+        },
+        {
+            "id": 27,
+            "label": "Reporting"
+        },
+        {
+            "id": 28,
+            "label": "Emails other"
+        },
+        {
+            "id": 29,
+            "label": "Meetings"
+        },
+        {
+            "id": 30,
+            "label": "Training"
+        },
+        {
+            "id": 31,
+            "label": "Interface"
+        },
+        {
+            "id": 32,
+            "label": "Uploads"
+        },
+        {
+            "id": 33,
+            "label": "Cash application"
+        },
+        {
+            "id": 34,
+            "label": "Emails"
+        },
+        {
+            "id": 35,
+            "label": "Printing BMG"
+        },
+        {
+            "id": 36,
+            "label": "Billing"
+        },
+        {
+            "id": 37,
+            "label": "Warranties"
+        },
+        {
+            "id": 38,
+            "label": "AP BE"
+        },
+        {
+            "id": 39,
+            "label": "AR BE"
+        },
+        {
+            "id": 40,
+            "label": "Booking JIRA"
+        },
+        {
+            "id": 41,
+            "label": "Rejections"
+        },
+        {
+            "id": 42,
+            "label": "Other email requests"
+        },
+        {
+            "id": 43,
+            "label": "Holds"
+        },
+        {
+            "id": 44,
+            "label": "Lync - Rec-booking issue"
+        },
+        {
+            "id": 45,
+            "label": "Lync - Rec-check PO Maximo"
+        },
+        {
+            "id": 46,
+            "label": "Lync - C&B\/Payments"
+        },
+        {
+            "id": 47,
+            "label": "Lync - Country"
+        },
+        {
+            "id": 48,
+            "label": "Lync - AP"
+        },
+        {
+            "id": 49,
+            "label": "JIRA"
+        },
+        {
+            "id": 50,
+            "label": "Billing\/Warranties"
+        },
+        {
+            "id": 51,
+            "label": "Lync - CashApp"
+        },
+        {
+            "id": 52,
+            "label": "Lync - Recon"
+        },
+        {
+            "id": 53,
+            "label": "Lync - C&B"
+        },
+        {
+            "id": 54,
+            "label": "Lync - VAT code"
+        },
+        {
+            "id": 55,
+            "label": "Lync - Copies"
+        },
+        {
+            "id": 56,
+            "label": "Termination process"
+        },
+        {
+            "id": 57,
+            "label": "Report review"
+        },
+        {
+            "id": 58,
+            "label": "Account reconsiliation"
+        },
+        {
+            "id": 59,
+            "label": "Final ER submission"
+        },
+        {
+            "id": 60,
+            "label": "Termination in bank"
+        },
+        {
+            "id": 61,
+            "label": "New card request"
+        },
+        {
+            "id": 62,
+            "label": "Step 1"
+        },
+        {
+            "id": 63,
+            "label": "Step 2"
+        },
+        {
+            "id": 64,
+            "label": "Approval\/active work queue"
+        },
+        {
+            "id": 65,
+            "label": "Daily report (Citi)"
+        },
+        {
+            "id": 66,
+            "label": "Ad hoc"
+        },
+        {
+            "id": 67,
+            "label": "Card changes"
+        },
+        {
+            "id": 68,
+            "label": "Limit increase"
+        },
+        {
+            "id": 69,
+            "label": "Name\/contact details update"
+        },
+        {
+            "id": 70,
+            "label": "Chip&pin"
+        },
+        {
+            "id": 71,
+            "label": "Hierarchy changes"
+        },
+        {
+            "id": 72,
+            "label": "MMC block\/unblock"
+        },
+        {
+            "id": 73,
+            "label": "Card block\/unblock"
+        },
+        {
+            "id": 74,
+            "label": "Credit\/debit balance"
+        },
+        {
+            "id": 75,
+            "label": "Transaction report"
+        },
+        {
+            "id": 76,
+            "label": "Gates issues"
+        },
+        {
+            "id": 77,
+            "label": "IT issues"
+        },
+        {
+            "id": 78,
+            "label": "AP issues"
+        },
+        {
+            "id": 79,
+            "label": "Bank issues"
+        },
+        {
+            "id": 80,
+            "label": "E-mail quarries (AP payment issues)"
+        },
+        {
+            "id": 81,
+            "label": "Expat\/inpat issues"
+        },
+        {
+            "id": 82,
+            "label": "Fraud\/stolen card"
+        },
+        {
+            "id": 83,
+            "label": "Support (lync, call, mail"
+        },
+        {
+            "id": 84,
+            "label": "Charge off"
+        },
+        {
+            "id": 85,
+            "label": "Visa insurance"
+        },
+        {
+            "id": 86,
+            "label": "Deliquencies"
+        },
+        {
+            "id": 87,
+            "label": "Report preparation"
+        },
+        {
+            "id": 88,
+            "label": "Reinstate account\/B3"
+        },
+        {
+            "id": 89,
+            "label": "E-mail distribution"
+        },
+        {
+            "id": 90,
+            "label": "E-mail resolution-follow up"
+        },
+        {
+            "id": 91,
+            "label": "Knowledge transfer"
+        },
+        {
+            "id": 92,
+            "label": "Meeting\/training\/project calls"
+        },
+        {
+            "id": 93,
+            "label": "Voice messages"
+        },
+        {
+            "id": 94,
+            "label": "Account reconciliation"
+        },
+        {
+            "id": 95,
+            "label": "Checking images"
+        },
+        {
+            "id": 96,
+            "label": "CM Tool"
+        },
+        {
+            "id": 97,
+            "label": "Lync-Requestors"
+        },
+        {
+            "id": 98,
+            "label": "Contract release"
+        },
+        {
+            "id": 99,
+            "label": "Contract maintanance"
+        },
+        {
+            "id": 100,
+            "label": "Cost Transfers"
+        },
+        {
+            "id": 101,
+            "label": "Revenue acc. Reconciliation"
+        },
+        {
+            "id": 102,
+            "label": "Cost acc. Reconciliation"
+        },
+        {
+            "id": 103,
+            "label": "UBR acc. Reconciliation"
+        },
+        {
+            "id": 104,
+            "label": "UER acc. Reconciliation"
+        },
+        {
+            "id": 105,
+            "label": "WIP acc. Reconciliation"
+        },
+        {
+            "id": 106,
+            "label": "2305 acc. Reconciliation"
+        },
+        {
+            "id": 107,
+            "label": "PA close (C-1)"
+        },
+        {
+            "id": 108,
+            "label": "Closing related activities"
+        },
+        {
+            "id": 109,
+            "label": "PA Interface checks & corrections"
+        },
+        {
+            "id": 110,
+            "label": "IT issues & follow up"
+        },
+        {
+            "id": 111,
+            "label": "Business support & follow up"
+        },
+        {
+            "id": 112,
+            "label": "Credit note & match with the invoice activity"
+        },
+        {
+            "id": 113,
+            "label": "Invoices (PA, AR manual)"
+        },
+        {
+            "id": 114,
+            "label": "Upload files (638, 612)"
+        },
+        {
+            "id": 115,
+            "label": "ICO - support"
+        },
+        {
+            "id": 116,
+            "label": "Send invoices to customer"
+        },
+        {
+            "id": 117,
+            "label": "SOX control"
+        },
+        {
+            "id": 118,
+            "label": "ACL 07"
+        },
+        {
+            "id": 119,
+            "label": "ACL 01"
+        },
+        {
+            "id": 120,
+            "label": "Team support"
+        },
+        {
+            "id": 121,
+            "label": "Change of details on transactions"
+        },
+        {
+            "id": 122,
+            "label": "Open credit memos follow up"
+        },
+        {
+            "id": 123,
+            "label": "PISKI"
+        },
+        {
+            "id": 124,
+            "label": "Credit\/debit balance, credit refund"
+        },
+        {
+            "id": 125,
+            "label": "Invoice Journal"
+        },
+        {
+            "id": 126,
+            "label": "Open in PTS"
+        },
+        {
+            "id": 127,
+            "label": "Status report"
+        },
+        {
+            "id": 128,
+            "label": "Stretch report"
+        },
+        {
+            "id": 129,
+            "label": "TWC"
+        },
+        {
+            "id": 130,
+            "label": "Rejected report"
+        },
+        {
+            "id": 131,
+            "label": "Payment forecast"
+        },
+        {
+            "id": 132,
+            "label": "Pay on scan"
+        },
+        {
+            "id": 133,
+            "label": "Flowchart"
+        },
+        {
+            "id": 134,
+            "label": "Aging report"
+        },
+        {
+            "id": 135,
+            "label": "PDI report"
+        },
+        {
+            "id": 136,
+            "label": "AP details for Iberia"
+        },
+        {
+            "id": 137,
+            "label": "BE AP Exception report"
+        },
+        {
+            "id": 138,
+            "label": "RCT report"
+        },
+        {
+            "id": 139,
+            "label": "AP Distribution reports"
+        },
+        {
+            "id": 140,
+            "label": "AP Monthly"
+        },
+        {
+            "id": 141,
+            "label": "Barcode reconciliation"
+        },
+        {
+            "id": 142,
+            "label": "Performance Report"
+        },
+        {
+            "id": 143,
+            "label": "Performance Review"
+        },
+        {
+            "id": 144,
+            "label": "Distribution & Tax Variance Report"
+        },
+        {
+            "id": 145,
+            "label": "Due Dilligence report"
+        },
+        {
+            "id": 146,
+            "label": "Eureka PDI"
+        },
+        {
+            "id": 147,
+            "label": "Eureka reconciliation"
+        },
+        {
+            "id": 148,
+            "label": "Eureka rejections\/prerejections"
+        },
+        {
+            "id": 149,
+            "label": "IC Mandatory release on hold report"
+        },
+        {
+            "id": 150,
+            "label": "Internal Credit memo"
+        },
+        {
+            "id": 151,
+            "label": "Invoice to enter date report"
+        },
+        {
+            "id": 152,
+            "label": "On holds details report"
+        },
+        {
+            "id": 153,
+            "label": "Open items \/ Debit balance"
+        },
+        {
+            "id": 154,
+            "label": "Payment report"
+        },
+        {
+            "id": 155,
+            "label": "Posted items"
+        },
+        {
+            "id": 156,
+            "label": "Quick payment statistics"
+        },
+        {
+            "id": 157,
+            "label": "Scanned invoices"
+        },
+        {
+            "id": 158,
+            "label": "Scanned overview"
+        },
+        {
+            "id": 159,
+            "label": "Spain pay terms report"
+        },
+        {
+            "id": 160,
+            "label": "TAT"
+        },
+        {
+            "id": 161,
+            "label": "IC Pull throught report iScala\/Oracle"
+        },
+        {
+            "id": 162,
+            "label": "Audit requests"
+        },
+        {
+            "id": 163,
+            "label": "KPI"
+        },
+        {
+            "id": 164,
+            "label": "Reconciliations"
+        },
+        {
+            "id": 165,
+            "label": "Performance packages"
+        },
+        {
+            "id": 166,
+            "label": "Contact list update"
+        },
+        {
+            "id": 167,
+            "label": "MPR authorization"
+        },
+        {
+            "id": 168,
+            "label": "Workshadowing"
+        },
+        {
+            "id": 169,
+            "label": "Webtop, eRoom update"
+        },
+        {
+            "id": 170,
+            "label": "Payment proposals overview"
+        },
+        {
+            "id": 171,
+            "label": "Distribution list"
+        },
+        {
+            "id": 172,
+            "label": "Charts"
+        },
+        {
+            "id": 173,
+            "label": "Check QPR\/approvals"
+        },
+        {
+            "id": 174,
+            "label": "Rejection QP"
+        },
+        {
+            "id": 175,
+            "label": "Processing QP"
+        },
+        {
+            "id": 176,
+            "label": "Check PDI reports"
+        },
+        {
+            "id": 177,
+            "label": "Blocked payment report"
+        },
+        {
+            "id": 178,
+            "label": "Payment proposal report"
+        },
+        {
+            "id": 179,
+            "label": "Check exception report"
+        },
+        {
+            "id": 180,
+            "label": "Iscala rejected payment"
+        },
+        {
+            "id": 181,
+            "label": "PIF's"
+        },
+        {
+            "id": 182,
+            "label": "Closing activities"
+        },
+        {
+            "id": 183,
+            "label": "Regular MEC reports"
+        }
+    ]
+}
+
+SINGLE RESPONSE END
+==================
+Request on site get_user_tracked_actions
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_tracked_actions
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Getting user tracked actions",
+    "tracked_actions": [
+        {
+            "id": 28063,
+            "comment": "Good",
+            "continue_for_inactive": "0",
+            "count": 1,
+            "finish": "2014-08-06T10:03:50+0200",
+            "start": "2014-08-06T10:03:46+0200",
+            "main_activity": {
+                "id": 38
+            },
+            "sub_activity": {
+                "id": 24
+            },
+            "level1": {
+                "id": 10
+            }
+        },
+        {
+            "id": 28065,
+            "comment": "Finished ca",
+            "continue_for_inactive": "0",
+            "count": 1,
+            "finish": "2014-08-06T10:08:29+0200",
+            "start": "2014-08-06T10:08:17+0200",
+            "main_activity": {
+                "id": 38
+            },
+            "sub_activity": {
+                "id": 24
+            },
+            "level1": {
+                "id": 10
+            }
+        }
+    ]
+}
+
+SINGLE RESPONSE END
+==================
+[com.jci.timetracker.models.TrackedAction@3f96ee, com.jci.timetracker.models.TrackedAction@ce16ad]
+jgallal313523108
+jgallal313523108
+Request on site set_user_default_level_1
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_default_level_1
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved."
+}
+
+SINGLE RESPONSE END
+==================
+WorkstationLock exit!
+Application exit!

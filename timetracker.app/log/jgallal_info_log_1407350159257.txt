@@ -1,0 +1,658 @@
+Request on site get_current_user
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_current_user
+Loading user tracked actions
+WorkstationLock window sucessfully created! Window hwnd: native@0x211bda
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "User authenticated. Getting user info",
+    "user": {
+        "default_level_1_id": 1,
+        "default_level_2_id": null,
+        "default_level_3_id": null
+    }
+}
+
+SINGLE RESPONSE END
+==================
+Request on site set_user_tracker_version
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracker version saved."
+}
+
+SINGLE RESPONSE END
+==================
+Request on site get_user_settings
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_settings
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Getting user department settings, all levels and all activities list",
+    "start": 1401573600,
+    "end": null,
+    "today": 1407350160,
+    "department_setting": {
+        "id": 7,
+        "subdepartment": "T7",
+        "allow_activity_editing": "0",
+        "levels_1": [
+            {
+                "id": 4
+            },
+            {
+                "id": 2
+            },
+            {
+                "id": 3
+            }
+        ],
+        "levels_2": [
+
+        ],
+        "levels_3": [
+
+        ],
+        "main_activities": [
+            {
+                "id": 25,
+                "activity_id": 4,
+                "sub_activities": [
+                    {
+                        "id": 28,
+                        "activity_id": 5
+                    },
+                    {
+                        "id": 29,
+                        "activity_id": 6
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "activity_id": 3,
+                "sub_activities": [
+                    {
+                        "id": 27,
+                        "activity_id": 1
+                    },
+                    {
+                        "id": 38,
+                        "activity_id": 7
+                    },
+                    {
+                        "id": 26,
+                        "activity_id": 2
+                    },
+                    {
+                        "id": 37,
+                        "activity_id": 3
+                    }
+                ]
+            },
+            {
+                "id": 35,
+                "activity_id": 1,
+                "sub_activities": [
+                    {
+                        "id": 48,
+                        "activity_id": 1
+                    },
+                    {
+                        "id": 49,
+                        "activity_id": 3
+                    },
+                    {
+                        "id": 50,
+                        "activity_id": 4
+                    }
+                ]
+            }
+        ]
+    },
+    "levels": [
+        {
+            "id": 1,
+            "label": "AN"
+        },
+        {
+            "id": 2,
+            "label": "TN"
+        },
+        {
+            "id": 3,
+            "label": "FE"
+        },
+        {
+            "id": 4,
+            "label": "EC"
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "label": "Communication"
+        },
+        {
+            "id": 2,
+            "label": "No CEG"
+        },
+        {
+            "id": 3,
+            "label": "Something"
+        },
+        {
+            "id": 4,
+            "label": "Alarm"
+        },
+        {
+            "id": 5,
+            "label": "Police"
+        },
+        {
+            "id": 6,
+            "label": "Paper"
+        },
+        {
+            "id": 7,
+            "label": "Train"
+        }
+    ]
+}
+
+SINGLE RESPONSE END
+==================
+Request on site get_user_tracked_actions
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_tracked_actions
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Getting user tracked actions",
+    "tracked_actions": [
+        {
+            "id": 1053,
+            "comment": "Ach",
+            "continue_for_inactive": "0",
+            "count": 1,
+            "finish": "2014-08-05T13:32:08+0200",
+            "start": "2014-08-05T13:31:52+0200",
+            "main_activity": {
+                "id": 4
+            },
+            "sub_activity": {
+                "id": 5
+            },
+            "level1": {
+                "id": 1
+            },
+            "level2": {
+                "id": 1
+            }
+        }
+    ]
+}
+
+SINGLE RESPONSE END
+==================
+[com.jci.timetracker.models.TrackedAction@da18ac]
+Request on site set_user_default_level_1
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_default_level_1
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved."
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@153c375
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1054"
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@153c375
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "1",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:12"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1055"
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@153c375
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "7",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:14"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1056"
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@153c375
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "2",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:15"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1057"
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@153c375
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "3",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:17"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1058"
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@153c375
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "1",
+        "sub_activity_id": "3",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:18"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1059"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "7",
+        "comment": "ok",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:14"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, comment=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site set_user_default_level_1
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_default_level_1
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved."
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@79e304
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "1",
+        "sub_activity_id": "3",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:28"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1060"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "1",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:31"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@79e304
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1061"
+}
+
+SINGLE RESPONSE END
+==================
+SELECTED com.jci.timetracker.models.Level@79e304
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "1",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:44"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site add_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=add_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions saved.",
+    "tracked_action_id": "1062"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "2",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:49"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "1",
+        "sub_activity_id": "3",
+        "comment": "ok",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:18"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, comment=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "1",
+        "sub_activity_id": "3",
+        "comment": "",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:28"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, comment=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "1",
+        "sub_activity_id": "3",
+        "comment": "ok",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:18"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, comment=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+Request on site update_tracked_action
+Making request to http://localhost:8070/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=update_tracked_action
+
+==================
+SINGLE RESPONSE START
+{
+    "status": "ok",
+    "message": "Tracked actions updated.",
+    "trackedActionAttributes": {
+        "count": "1",
+        "main_activity_id": "3",
+        "sub_activity_id": "3",
+        "comment": "",
+        "confirmed": "0",
+        "continue_for_inactive": "0",
+        "finish": "2014-08-06 20:36:17"
+    },
+    "lastQuery": "UPDATE tracked_actions SET updated_at=?, comment=?, confirmed=?, continue_for_inactive=?, count=?, finish=?, main_activity_id=?, sub_activity_id=? WHERE id=?"
+}
+
+SINGLE RESPONSE END
+==================
+WorkstationLock exit!
+Application exit!

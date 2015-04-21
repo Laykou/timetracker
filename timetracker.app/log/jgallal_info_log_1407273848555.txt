@@ -1,0 +1,12 @@
+Request on site set_user_tracker_version
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+Loading user tracked actions
+WorkstationLock window sucessfully created! Window hwnd: native@0x310d2
+Request on site set_user_tracker_version
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+Request on site set_user_tracker_version
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+Sleeping
+Requests worker logger has stopped!
+WorkstationLock exit!
+Application exit!

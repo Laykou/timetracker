@@ -1,0 +1,15 @@
+Request on site get_current_user
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_current_user
+Loading user tracked actions
+WorkstationLock window sucessfully created! Window hwnd: native@0xe01bc
+Request on site set_user_tracker_version
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_tracker_version
+Request on site get_user_settings
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_settings
+Request on site get_user_tracked_actions
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=get_user_tracked_actions
+[]
+Request on site set_user_default_level_1
+Making request to http://a2548map01.ag.eu.jci.com:80/timetracker/api/index.php?username=jgallal&domain=EUJCI&site=set_user_default_level_1
+WorkstationLock exit!
+Application exit!

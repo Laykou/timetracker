@@ -1,0 +1,137 @@
+20.4.2015 22:39:45 com.jci.timetracker.run.GuiRunner main
+INFO: Application started
+20.4.2015 22:39:45 org.xnio.Xnio <clinit>
+INFO: XNIO Version 3.0.3.GA
+20.4.2015 22:39:45 org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.0.3.GA
+20.4.2015 22:39:45 org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 3.2.3.GA
+20.4.2015 22:39:45 com.jci.timetracker.workstationLock.WorkstationLockListening <init>
+INFO: WorkstationLock window sucessfully created! Window hwnd: native@0x300918
+20.4.2015 22:39:45 org.jboss.ejb.client.remoting.VersionReceiver handleMessage
+INFO: Received server version 1 and marshalling strategies [river]
+20.4.2015 22:39:45 org.jboss.ejb.client.remoting.RemotingConnectionEJBReceiver associate
+INFO: Successful version handshake completed for receiver context EJBReceiverContext{clientContext=org.jboss.ejb.client.EJBClientContext@52c4c57, receiver=Remoting connection EJB receiver [connection=Remoting connection <774b6b02>,channel=jboss.ejb,nodename=shrek]} on channel Channel ID 85f07580 (outbound) of Remoting connection 1d162212 to localhost/127.0.0.1:4447
+20.4.2015 22:39:45 org.jboss.ejb.client.remoting.ChannelAssociation$ResponseReceiver handleMessage
+WARN: Unsupported message received with header 0xffffffff
+20.4.2015 22:39:45 org.jboss.ejb.client.EJBClient <clinit>
+INFO: JBoss EJB Client version 1.0.5.Final
+20.4.2015 22:39:45 com.jci.timetracker.requester.ejb.RequestsWorker run
+SEVERE: Error while executing request
+java.lang.reflect.UndeclaredThrowableException
+	at $Proxy3.findOrCreateUser(Unknown Source)
+	at com.jci.timetracker.settings.CurrentUser$8.call(CurrentUser.java:155)
+	at com.jci.timetracker.requester.ejb.RequestMessageWrapper.execute(RequestMessageWrapper.java:58)
+	at com.jci.timetracker.requester.ejb.RequestsWorker.run(RequestsWorker.java:214)
+Caused by: java.lang.ClassNotFoundException: org.hibernate.collection.internal.PersistentBag
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.jboss.marshalling.AbstractClassResolver.loadClass(AbstractClassResolver.java:135)
+	at org.jboss.marshalling.AbstractClassResolver.resolveClass(AbstractClassResolver.java:116)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadClassDescriptor(RiverUnmarshaller.java:892)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadNewObject(RiverUnmarshaller.java:1204)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:272)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:209)
+	at org.jboss.marshalling.river.RiverUnmarshaller.readFields(RiverUnmarshaller.java:1677)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doInitSerializable(RiverUnmarshaller.java:1593)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadNewObject(RiverUnmarshaller.java:1235)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:272)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:209)
+	at org.jboss.marshalling.AbstractObjectInput.readObject(AbstractObjectInput.java:37)
+	at org.jboss.ejb.client.remoting.MethodInvocationResponseHandler$MethodInvocationResultProducer.getResult(MethodInvocationResponseHandler.java:107)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:270)
+	at org.jboss.ejb.client.TransactionInterceptor.handleInvocationResult(TransactionInterceptor.java:47)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:272)
+	at org.jboss.ejb.client.ReceiverInterceptor.handleInvocationResult(ReceiverInterceptor.java:132)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:260)
+	at org.jboss.ejb.client.EJBClientInvocationContext.awaitResponse(EJBClientInvocationContext.java:399)
+	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:140)
+	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:121)
+	at org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:104)
+	... 4 more
+20.4.2015 22:39:45 com.jci.timetracker.requester.ejb.RequestsWorker run
+SEVERE: Error while executing request
+java.lang.reflect.UndeclaredThrowableException
+	at $Proxy3.findOrCreateUser(Unknown Source)
+	at com.jci.timetracker.settings.CurrentUser$8.call(CurrentUser.java:155)
+	at com.jci.timetracker.requester.ejb.RequestMessageWrapper.execute(RequestMessageWrapper.java:58)
+	at com.jci.timetracker.requester.ejb.RequestsWorker.run(RequestsWorker.java:214)
+Caused by: java.lang.ClassNotFoundException: org.hibernate.collection.internal.PersistentBag
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.jboss.marshalling.AbstractClassResolver.loadClass(AbstractClassResolver.java:135)
+	at org.jboss.marshalling.AbstractClassResolver.resolveClass(AbstractClassResolver.java:116)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadClassDescriptor(RiverUnmarshaller.java:892)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadNewObject(RiverUnmarshaller.java:1204)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:272)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:209)
+	at org.jboss.marshalling.river.RiverUnmarshaller.readFields(RiverUnmarshaller.java:1677)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doInitSerializable(RiverUnmarshaller.java:1593)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadNewObject(RiverUnmarshaller.java:1235)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:272)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:209)
+	at org.jboss.marshalling.AbstractObjectInput.readObject(AbstractObjectInput.java:37)
+	at org.jboss.ejb.client.remoting.MethodInvocationResponseHandler$MethodInvocationResultProducer.getResult(MethodInvocationResponseHandler.java:107)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:270)
+	at org.jboss.ejb.client.TransactionInterceptor.handleInvocationResult(TransactionInterceptor.java:47)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:272)
+	at org.jboss.ejb.client.ReceiverInterceptor.handleInvocationResult(ReceiverInterceptor.java:132)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:260)
+	at org.jboss.ejb.client.EJBClientInvocationContext.awaitResponse(EJBClientInvocationContext.java:399)
+	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:140)
+	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:121)
+	at org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:104)
+	... 4 more
+20.4.2015 22:39:45 com.jci.timetracker.requester.ejb.RequestsWorker run
+SEVERE: Error while executing request
+java.lang.reflect.UndeclaredThrowableException
+	at $Proxy3.findOrCreateUser(Unknown Source)
+	at com.jci.timetracker.settings.CurrentUser$8.call(CurrentUser.java:155)
+	at com.jci.timetracker.requester.ejb.RequestMessageWrapper.execute(RequestMessageWrapper.java:58)
+	at com.jci.timetracker.requester.ejb.RequestsWorker.run(RequestsWorker.java:214)
+Caused by: java.lang.ClassNotFoundException: org.hibernate.collection.internal.PersistentBag
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.jboss.marshalling.AbstractClassResolver.loadClass(AbstractClassResolver.java:135)
+	at org.jboss.marshalling.AbstractClassResolver.resolveClass(AbstractClassResolver.java:116)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadClassDescriptor(RiverUnmarshaller.java:892)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadNewObject(RiverUnmarshaller.java:1204)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:272)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:209)
+	at org.jboss.marshalling.river.RiverUnmarshaller.readFields(RiverUnmarshaller.java:1677)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doInitSerializable(RiverUnmarshaller.java:1593)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadNewObject(RiverUnmarshaller.java:1235)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:272)
+	at org.jboss.marshalling.river.RiverUnmarshaller.doReadObject(RiverUnmarshaller.java:209)
+	at org.jboss.marshalling.AbstractObjectInput.readObject(AbstractObjectInput.java:37)
+	at org.jboss.ejb.client.remoting.MethodInvocationResponseHandler$MethodInvocationResultProducer.getResult(MethodInvocationResponseHandler.java:107)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:270)
+	at org.jboss.ejb.client.TransactionInterceptor.handleInvocationResult(TransactionInterceptor.java:47)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:272)
+	at org.jboss.ejb.client.ReceiverInterceptor.handleInvocationResult(ReceiverInterceptor.java:132)
+	at org.jboss.ejb.client.EJBClientInvocationContext.getResult(EJBClientInvocationContext.java:260)
+	at org.jboss.ejb.client.EJBClientInvocationContext.awaitResponse(EJBClientInvocationContext.java:399)
+	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:140)
+	at org.jboss.ejb.client.EJBInvocationHandler.doInvoke(EJBInvocationHandler.java:121)
+	at org.jboss.ejb.client.EJBInvocationHandler.invoke(EJBInvocationHandler.java:104)
+	... 4 more
+20.4.2015 22:39:58 com.jci.timetracker.workstationLock.WorkstationLockListening$1 call
+INFO: WorkstationLock exit!

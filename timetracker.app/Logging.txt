@@ -1,0 +1,6 @@
+Aug 11, 2014 12:09:18 AM com.jci.timetracker.run.GuiRunner main
+INFO: Application started
+Aug 11, 2014 12:09:19 AM com.jci.timetracker.workstationLock.WorkstationLockListening <init>
+INFO: WorkstationLock window sucessfully created! Window hwnd: native@0x2515ca
+Aug 11, 2014 8:10:24 AM com.jci.timetracker.workstationLock.WorkstationLockListening$1 call
+INFO: WorkstationLock exit!

@@ -1,0 +1,8 @@
+Could not read requests log from file requests_log.ser.
+Uncaught error fetching image:
+java.lang.NullPointerException
+	at sun.awt.image.URLImageSource.getConnection(Unknown Source)
+	at sun.awt.image.URLImageSource.getDecoder(Unknown Source)
+	at sun.awt.image.InputStreamImageSource.doFetch(Unknown Source)
+	at sun.awt.image.ImageFetcher.fetchloop(Unknown Source)
+	at sun.awt.image.ImageFetcher.run(Unknown Source)

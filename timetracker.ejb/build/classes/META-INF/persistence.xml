@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="timetracker.ejb">
+	    <jta-data-source>java:/timetracker</jta-data-source>
+	    <class>com.jci.bbc.timetracker.model.Category</class>
+	    <class>com.jci.bbc.timetracker.model.Activity</class>
+	    <class>com.jci.bbc.timetracker.model.User</class>
+	    <class>com.jci.bbc.timetracker.model.Action</class>
+	    <class>com.jci.bbc.timetracker.model.DepartmentSetting</class>
+	    <class>com.jci.bbc.timetracker.model.TrackedAction</class>
+	    <class>com.jci.bbc.timetracker.model.Level</class>
+	    <class>com.jci.bbc.timetracker.model.Setting</class>
+	    <properties>
+	        <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect" />
+	        <property name="hibernate.hbm2ddl.auto" value="create" />
+	    </properties>
+	</persistence-unit>
+</persistence>

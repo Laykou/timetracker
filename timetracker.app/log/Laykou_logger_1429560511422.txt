@@ -1,0 +1,6 @@
+20.4.2015 22:08:31 com.jci.timetracker.run.GuiRunner main
+INFO: Application started
+20.4.2015 22:08:31 com.jci.timetracker.requester.ejb.RequestsWorker run
+INFO: Cannot instantiate class: org.jboss.naming.remote.client.InitialContextFactory
+20.4.2015 22:08:32 com.jci.timetracker.workstationLock.WorkstationLockListening <init>
+INFO: WorkstationLock window sucessfully created! Window hwnd: native@0x270a4e

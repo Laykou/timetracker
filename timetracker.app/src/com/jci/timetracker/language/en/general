@@ -1,0 +1,15 @@
+title=Time Tracker
+
+language=English
+Yes=Yes
+No=No
+Cancel=Cancel
+
+ExitDialog=Are you sure you want to exit? If yes running actions will be finished.
+loadingMessage=Time tracker is loading, please wait...
+
+noSettingsLoaded=You have currently no tracking settings which means you are not allowed to track any activity. If you should be able to track contact your local manager. Application will close now.
+offlineApplication=Application could not connect to server. It will load your offline settings (if available). You can do all your work as usual. Next time you will be online all your data will be synchronized with server.
+settingsLoadingError=Error occured during loading offline settings. File settings.ser is corrupted. You can solve this by using the application online. Or you can contact administrator. Application will close now.
+
+startTrackingAfterUnlock=Tracker is paused, please select task.
